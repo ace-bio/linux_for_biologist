@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "What is your two favorite foods?"
+read food1 food2
+
+echo "Your favorite foods are ${food1} && ${food2}"

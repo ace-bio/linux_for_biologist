@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+#enable debugging using the set command
+set -eux
+
+#create a dir variable
+
+
+
+#create a for loop
+#creat a conditional statement
+
+for file in 
+do
+	if [[ -s ${file}]]
+	then
+	echo "Not empty"
+	alignment_count=$(samtools view -c ${file})
+	echo ${alignment_count}
+	fi
+done
